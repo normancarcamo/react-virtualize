@@ -1,0 +1,6 @@
+{
+  "presets": ["es2015","latest","react"],
+  "compact": false,
+  "comments": true,
+  "highlightCode": false
+}
