@@ -8,7 +8,8 @@
     "webpack-watch": "./node_modules/.bin/webpack --config webpack.config.js --progress --profile --colors --watch -v --display-error-details",
     "babel-compile": "./node_modules/.bin/babel src --out-dir dist --ignore dist --only src --presets es2015,react --compact true --no-comments --no-highlight-code -D",
     "webpack-compile": "./node_modules/.bin/webpack --config webpack.config.js --progress --profile --colors -v --display-error-details",
-    "nodemon": "./node_modules/.bin/nodemon dist/server.js"
+    "nodemon": "./node_modules/.bin/nodemon dist/server.js",
+    "gulp": "gulp production"
   },
   "author": "Norman Carcamo",
   "license": "ISC",
@@ -21,7 +22,8 @@
     "babel-preset-react": "^6.16.0",
     "gulp": "^3.9.1",
     "nodemon": "^1.11.0",
-    "webpack": "^1.13.3"
+    "webpack": "^1.13.3",
+    "yargs": "^6.5.0"
   },
   "dependencies": {
     "express": "^4.14.0",
